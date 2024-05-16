@@ -2,7 +2,12 @@
 A simple "Hello, World!" kernel module for Linux. This module demonstrates the basic structure of a kernel module and how to load and unload it from the kernel. Ideal for beginners learning Linux kernel module development.
 
 **modify makeFile with tab button after "all" and "clean"**
-**run run.sh**
+
+rename it **Makefile**
+
+Ensure all files are in same directory and run the command:
+
+**make**
 
 Load the module:
 
