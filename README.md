@@ -11,16 +11,15 @@ After successfully compiling the module, load it into the kernel using the follo
 This command inserts the module into the kernel.
 
 **Check the kernel log:**
+**dmesg | tail**
 
 To view the "**Hello, World!**" message and the "Goodbye, World!" message when unloading the module, use the following command:
-
-
 **dmesg | tail**
 
 **Unload the module:**
 
 To unload the module from the kernel, use the following command:
+**sudo rmmod hello_world**
 
-sudo rmmod hello
 This command removes the module from the kernel.
 **dmesg | tail**
